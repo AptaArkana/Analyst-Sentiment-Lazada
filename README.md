@@ -1,2 +1,3 @@
 # Analyst-Sentiment-Lazada
-Text analytics, atau yang sering disebut juga dengan text analysis atau text  mining, adalah studi yang mempelajari proses analisis unstructured data untuk  mendapatkan suatu informasi yang memiliki nilai, makna, dan pattern. Lazada sebagai marketplace yang lumayan besar pasti mempunyai data yang cukup banyak untuk dijadikan study case
+Lazada Didirikan pada tahun 2012, Lazada Group adalah platform e-Commerce terkemuka di Asia Tenggara. Hadir di enam negara, yaitu : Indonesia, Malaysia, Filipina, Singapura, Thailand, dan Vietnam. Dengan Jumlah pengunjung hamper 28,58 juta per bulan. Dengan banyaknya jumlah kunjungan pada setiap bulannya di aplikasi lazada. Penjual membutuhkan sebuah program untuk mengetahui apakah review dari pembeli terhadap produk mereka merupakan sebuah review yang positif, negatif, ataupun netral.
+
