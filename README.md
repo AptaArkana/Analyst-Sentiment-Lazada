@@ -17,3 +17,19 @@ Dengan menggunakan program analisis sentimen ini, penjual di Lazada dapat dengan
 
 ## Hasil
 ![newplot](https://github.com/AptaArkana/Analyst-Sentiment-Lazada/assets/79633073/f57d49e4-18fb-4766-b360-8560f4ad1c60)
+Dari diagram tersebut, terlihat bahwa harddisk eksternal memiliki rating tertinggi dibandingkan dengan produk lainnya. Ini menunjukkan bahwa pelanggan yang membeli harddisk eksternal merasa puas dengan pelayanan yang diberikan oleh penjual.
+
+<img width="434" alt="image" src="https://github.com/AptaArkana/Analyst-Sentiment-Lazada/assets/79633073/12afdec9-c82c-424e-b956-eb87ff68ffe8">
+Tanggapan dari customer mengenai produk juga sudah baik, ini terlihat dari kata kata yang sering dijumpai didalam ulasan. Semakin besar kata kata yang divisualisasikan, maka kata kata tersebut semakin sering muncul pada di review customer
+
+<img width="132" alt="image" src="https://github.com/AptaArkana/Analyst-Sentiment-Lazada/assets/79633073/cc6b658b-a019-4b10-a412-88b12bad72fb">
+Dalam kasus ini, kita dapat melihat bahwa model memiliki nilai akurasi rata-rata sebesar 0.8976, presisi rata-rata sebesar 0.8825, recall rata-rata sebesar 0.7264, dan F1-score rata-rata sebesar 0.7264. Jika kita hanya melihat angka-angka ini secara terisolasi, kita mungkin cenderung mengatakan bahwa model tersebut sudah baik.
+
+<img width="47" alt="image" src="https://github.com/AptaArkana/Analyst-Sentiment-Lazada/assets/79633073/f03ae432-9743-4a6b-9e8d-427a0dd557fc">
+Namun, persebaran label data tidak seimbang. Jumlah sampel untuk kelas 2 (15888) jauh lebih tinggi daripada jumlah sampel untuk kelas 0 (3570) dan kelas 1 (1620). Hal ini dapat menyebabkan model cenderung lebih baik dalam memprediksi kelas mayoritas (kelas 2) daripada kelas minoritas (kelas 0 dan 1).
+
+Dalam kasus ketidakseimbangan kelas seperti ini, mengandalkan akurasi saja mungkin tidak memberikan gambaran yang akurat tentang kinerja model. Lebih penting untuk memperhatikan metrik evaluasi seperti presisi, recall, dan F1-score untuk setiap kelas secara terpisah.
+
+Dalam kasus ini, presisi rata-rata dan recall rata-rata untuk kelas minoritas (kelas 0 dan 1) adalah 0.8825 dan 0.7264. Hal ini menunjukkan bahwa model memiliki kemampuan yang baik untuk mengidentifikasi dan memprediksi dengan benar sampel dari kelas minoritas. Namun, jika penekanan khusus diberikan pada kelas minoritas, mungkin perlu dilakukan penyesuaian lebih lanjut untuk meningkatkan performa pada kelas tersebut.
+
+Oleh karena itu, meskipun model ini memiliki kinerja yang baik secara umum, dalam konteks ketidakseimbangan kelas, masih ada ruang untuk meningkatkan kinerja model, terutama dalam hal recall dan F1-score untuk kelas minoritas.
